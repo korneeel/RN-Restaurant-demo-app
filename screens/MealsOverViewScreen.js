@@ -10,7 +10,7 @@ function MealsOverViewScreen({ route }) {
   });
 
   function renderMealItem(itemData) {
-    return <MealItem title={itemData.item.title} />;
+    return <MealItem title={itemData.item.title}  imageUrl={itemData.item.imageUrl} />;
   }
   return (
     <View style={styles.container}>
@@ -28,5 +28,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-  },
+  }
 });
