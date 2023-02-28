@@ -2,8 +2,6 @@ import { CATEGORIES } from "../data/dummy-data";
 import { FlatList } from "react-native";
 import CategoryGridTitle from "../components/CategoryGridTitle";
 
-
-
 function CategoriesScreens({navigation}) {
   function renderCategoryItem(itemData) {
     function pressHandler(){
